@@ -10,7 +10,8 @@ Potential GANs: [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2p
 
 - [Illustrations of Birds](https://drive.google.com/drive/folders/1DmYX29c5gpN687wPY6fdBrYYNKuuh4h9?usp=sharing)
 
-Pretrained network: [link](https://drive.google.com/file/d/13-MTb621-v5KLZWq055cK_M-qSsXAtoJ/view?usp=sharing)
+Pretrained network (43mb): [link](https://drive.google.com/file/d/13-MTb621-v5KLZWq055cK_M-qSsXAtoJ/view?usp=sharing)
+
 Results from this network, with approx. 80 illustrations and 130 images:
 
 ![results80](https://github.com/jamescoupe/photo2illustration/blob/main/birdsofbritishem00gree101-201-078_fake_A.png?raw=true)
