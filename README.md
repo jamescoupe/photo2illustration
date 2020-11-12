@@ -22,3 +22,10 @@ Potential GANs: [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2p
 ![results80](https://github.com/jamescoupe/photo2illustration/blob/main/birdsofbritishem00gree-1-100-045_fake_A.png?raw=true)
 ![results80](https://github.com/jamescoupe/photo2illustration/blob/main/birdsofbritishem00gree-1-100-052_fake_A.png?raw=true)
 ![results80](https://github.com/jamescoupe/photo2illustration/blob/main/birdsofbritishem00gree-1-100-018_fake_A.png?raw=true)
+
+2. Same as 1, but with additional 435 Audobon illustrations:
+
+![results80](https://github.com/jamescoupe/photo2illustration/blob/main/epoch173_fake_A.png?raw=true)
+![results80](https://github.com/jamescoupe/photo2illustration/blob/main/epoch182_fake_A.png?raw=true)
+![results80](https://github.com/jamescoupe/photo2illustration/blob/main/epoch187_fake_A.png?raw=true)
+![results80](https://github.com/jamescoupe/photo2illustration/blob/main/epoch194_fake_A.png?raw=true)
