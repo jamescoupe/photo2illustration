@@ -7,6 +7,7 @@
 Using photos of birds as input, generate illustrated versions of them. This uses cyclegan.
 
 **Usage**
+
 python cyclegan/test.py --dataroot cyclegan/datasets/bird2illustration --name bird2illustration --model test --no_dropout --preprocess none --gpu_ids -1
 
 **Training Data**:
