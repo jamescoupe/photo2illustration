@@ -1,13 +1,13 @@
 *Part 6 of BotBE*
 
-**To Do**
-- increase training data to improve model
+
 
 **Description**
 
-Using photos of birds as input, generate illustrated versions of them. 
+Using photos of birds as input, generate illustrated versions of them. This uses cyclegan.
 
-Potential GANs: [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+**Usage**
+python cyclegan/test.py --dataroot cyclegan/datasets/bird2illustration --name bird2illustration --model test --no_dropout --preprocess none --gpu_ids -1
 
 **Training Data**:
 
