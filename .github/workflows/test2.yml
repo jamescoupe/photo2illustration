@@ -9,12 +9,12 @@ jobs:
       run: actions/checkout@v2
 
     - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
+      uses: actions/setup-python@v2
+      with:
           python-version: 3.7
 
     - name: Install dependencies
-        run: pip install -r cyclegan/requirements.txt
+      run: pip install -r cyclegan/requirements.txt
 
     - name: Let it rip
-        run: python cyclegan/test.py --dataroot cyclegan/datasets/bird2illustration --name bird2illustration --model test
+      run: python cyclegan/test.py --dataroot cyclegan/datasets/bird2illustration --name bird2illustration --model test
