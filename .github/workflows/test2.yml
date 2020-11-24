@@ -28,4 +28,4 @@ jobs:
       run: python cyclegan/test.py --dataroot cyclegan/datasets/bird2illustration --name bird2illustration --model test --checkpoints_dir cyclegan/checkpoints --no_dropout --preprocess none --gpu_ids -1
 
     - name: Upload results
-        run: aws s3 cp --recursive results/bird2illustration/test_latest/images s3://jamescoupe-birds/illustrations
+      run: aws s3 cp --recursive results/bird2illustration/test_latest/images s3://jamescoupe-birds/illustrations
