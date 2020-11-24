@@ -1,5 +1,5 @@
 name: Run Photo2Illustration                                               
-on: [pus]h                                                  
+on: [push]                                                  
 jobs:                         
   generate_images:                           
     name: Illustrate                           
