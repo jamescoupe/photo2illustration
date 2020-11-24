@@ -17,5 +17,15 @@ jobs:
     - name: Install dependencies
       run: pip install -r cyclegan/requirements.txt
 
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+          aws-access-key-id: ${{ secrets.ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
+          aws-region: us-west-2
+
     - name: Let it rip
       run: python cyclegan/test.py --dataroot cyclegan/datasets/bird2illustration --name bird2illustration --model test --checkpoints_dir cyclegan/checkpoints --no_dropout --preprocess none --gpu_ids -1
+
+    - name: Upload results
+        run: aws s3 cp --recursive results/bird2illustration/test_latest/images s3://jamescoupe-birds/illustrations
