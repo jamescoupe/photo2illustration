@@ -1,9 +1,10 @@
 name: Run Photo2Illustration                                               
-on: push                                                  
+on: [pus]h                                                  
 jobs:                         
-  generate-illustrations:                           
+  generate_images:                           
     name: Illustrate                           
-    runs-on: ubuntu-latest                           
+    runs-on: ubuntu-latest
+                           
     steps:                           
     - name: Checkout code                             
       run: actions/checkout@v2
